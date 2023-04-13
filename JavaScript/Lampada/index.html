@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Luz! </title>
+    <link rel="shortcut icon" href="Imagens/luz.ico" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script language="javascript" src="JS/Lampada.js"></script>
+
+</head>
+
+<body>
+
+    <article>
+        <h1>Esta lampada esta esperando seus comandos!</h1>
+
+        <img class="imgCursor" width="300" src="Imagens/lampada-apagada.jpg" id="lampada" onmouseover="mudarLampada(1)"
+                onmouseout="mudarLampada(2)" onclick="mudarLampada(3)" alt="Lampada Interativa">
+
+        <hr><br><br>
+
+        <button onclick="arrumarLampada()">Colocar Lampada NOVA</button>
+
+        <br><br><br><hr>
+
+        <h2>ps: para concertar a lampada click no botão ou na lampada quebrada.</h2>
+    </article>
+
+</body>
+
+</html>

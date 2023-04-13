@@ -1,0 +1,23 @@
+.teste{
+    text-align: center;
+    color: blueviolet;
+    background-color: aquamarine;
+
+    margin: ;
+
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+
+    border-radius: 20px;
+    border-color: aqua;
+    border-width: 1em;    
+    border-style: solid;    
+
+}
+
+a{
+    border-width: 1em;
+    border-color: brown;
+    border-style: dashed;
+}

@@ -1,0 +1,95 @@
+2023-03-29 16:07:04,397 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2023-03-29 16:10:05,135 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-03-29 20:05:10,948 [Worker-0: reload maven project] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: Some problems were encountered while processing the POMs:
+[FATAL] Non-readable POM Q:\AulasjAVA\eclipse\restComAjax\src\Controller\pom.xml: input contained no data @ 
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-readable POM Q:\AulasjAVA\eclipse\restComAjax\src\Controller\pom.xml: input contained no data @ 
+
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readMavenProjects(IMavenToolbox.java:131)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$20(ProjectRegistryManager.java:902)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:898)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:214)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:105)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:239)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:708)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$4.run(MavenPomEditor.java:1028)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-03-29 20:05:32,416 [Worker-36: reload maven project] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: Some problems were encountered while processing the POMs:
+[FATAL] Non-readable POM Q:\AulasjAVA\eclipse\restComAjax\src\pom.xml: input contained no data @ 
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-readable POM Q:\AulasjAVA\eclipse\restComAjax\src\pom.xml: input contained no data @ 
+
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readMavenProjects(IMavenToolbox.java:131)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$20(ProjectRegistryManager.java:902)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:898)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:214)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:105)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:239)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:708)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$4.run(MavenPomEditor.java:1028)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-03-29 20:30:52,779 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-03-29 20:32:24,411 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/dk/swissarmyronin/guava-lombok-mockito-archetype/1.3/guava-lombok-mockito-archetype-1.3.pom
+2023-03-29 20:32:24,668 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/dk/swissarmyronin/guava-lombok-mockito-archetype/1.3/guava-lombok-mockito-archetype-1.3.pom
+2023-03-29 20:32:24,827 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/dk/swissarmyronin/guava-lombok-mockito-archetype/1.3/guava-lombok-mockito-archetype-1.3.jar
+2023-03-29 20:32:25,089 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/dk/swissarmyronin/guava-lombok-mockito-archetype/1.3/guava-lombok-mockito-archetype-1.3.jar
+2023-03-29 20:33:14,811 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606 [273])
+2023-03-29 20:33:14,824 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606
+2023-03-29 20:33:14,824 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\aether-connector-okhttp-0.17.8.jar
+2023-03-29 20:33:14,824 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\commons-lang3-3.8.1.jar
+2023-03-29 20:33:14,825 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\guice-4.2.2-no_aop.jar
+2023-03-29 20:33:14,825 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\jansi-2.4.0.jar
+2023-03-29 20:33:14,825 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-artifact-3.8.7.jar
+2023-03-29 20:33:14,825 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-builder-support-3.8.7.jar
+2023-03-29 20:33:14,826 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-compat-3.8.7.jar
+2023-03-29 20:33:14,826 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-core-3.8.7.jar
+2023-03-29 20:33:14,826 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-embedder-3.8.7.jar
+2023-03-29 20:33:14,826 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-model-3.8.7.jar
+2023-03-29 20:33:14,826 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-model-builder-3.8.7.jar
+2023-03-29 20:33:14,827 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-plugin-api-3.8.7.jar
+2023-03-29 20:33:14,827 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-repository-metadata-3.8.7.jar
+2023-03-29 20:33:14,827 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-api-1.6.3.jar
+2023-03-29 20:33:14,828 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-connector-basic-1.6.3.jar
+2023-03-29 20:33:14,828 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-impl-1.6.3.jar
+2023-03-29 20:33:14,828 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-provider-3.8.7.jar
+2023-03-29 20:33:14,828 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-spi-1.6.3.jar
+2023-03-29 20:33:14,828 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-transport-wagon-1.6.3.jar
+2023-03-29 20:33:14,829 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-util-1.6.3.jar
+2023-03-29 20:33:14,829 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-settings-3.8.7.jar
+2023-03-29 20:33:14,829 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-settings-builder-3.8.7.jar
+2023-03-29 20:33:14,829 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-shared-utils-3.3.4.jar
+2023-03-29 20:33:14,830 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\okhttp-3.14.1.jar
+2023-03-29 20:33:14,830 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\okio-1.17.3.jar
+2023-03-29 20:33:14,830 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\org.eclipse.sisu.inject-0.3.5.jar
+2023-03-29 20:33:14,830 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2023-03-29 20:33:14,830 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-build-api-0.0.7.jar
+2023-03-29 20:33:14,831 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-cipher-2.0.jar
+2023-03-29 20:33:14,831 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-classworlds-2.6.0.jar
+2023-03-29 20:33:14,831 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-component-annotations-2.1.0.jar
+2023-03-29 20:33:14,831 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-interpolation-1.26.jar
+2023-03-29 20:33:14,832 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-sec-dispatcher-2.0.jar
+2023-03-29 20:33:14,832 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-utils-3.3.1.jar
+2023-03-29 20:33:14,832 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\wagon-file-3.5.3.jar
+2023-03-29 20:33:14,832 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\wagon-provider-api-3.5.3.jar
+2023-03-29 20:33:14,834 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_31.1.0.jre [9])
+2023-03-29 20:33:14,836 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\com.google.guava_31.1.0.jre.jar
+2023-03-29 20:33:14,836 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [441])
+2023-03-29 20:33:14,837 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\slf4j.api_1.7.36.jar
+2023-03-29 20:33:14,837 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [21])
+2023-03-29 20:33:14,838 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2023-03-29 20:33:14,838 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20221203-1659 [19])
+2023-03-29 20:33:14,839 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\javax.annotation_1.3.5.v20221203-1659.jar
+2023-03-29 20:33:14,840 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.4.0.v20221112-0806 [41])
+2023-03-29 20:33:14,841 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\org.apache.commons.cli_1.4.0.v20221112-0806.jar
+2023-03-29 20:33:14,841 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.1 [11])
+2023-03-29 20:33:14,842 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Fee\.p2\pool\plugins\com.google.guava.failureaccess_1.0.1.jar
+2023-03-29 20:33:14,845 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Fee\AppData\Local\Temp\m2e-archetypeGenerator10182713843182045973":
+2023-03-29 20:33:14,849 [Worker-8: Launching mavenrun-d1a4cbe0-13fb-48b4-a0ed-7184f4c2a4fd] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -D? -DarchetypeGroupId=dk.swissarmyronin -DarchetypeArtifactId=guava-lombok-mockito-archetype -DarchetypeVersion=1.3 -DgroupId=com.restAjax -DartifactId=restAjax -Dversion=0.0.1-SNAPSHOT -Dpackage=com.restAjax.restAjax -DoutputDirectory=Q:\AulasjAVA\eclipse -Dstyle.color=always -U archetype:generate

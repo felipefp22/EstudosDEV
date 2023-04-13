@@ -1,0 +1,27 @@
+header{
+    background: linear-gradient(to bottom, var(--cor3), var(--cor4), var(--cor5));
+    
+    text-shadow: 1px 1px 0px var(--cor5);
+    text-align: center;
+    color: aliceblue;
+    
+    margin: 0px;
+    width: auto;
+    height: 200px;
+}
+
+header h1{
+    font-family: var(--fonte2);
+    font-size: 4em;
+    padding-top: 50px;
+    transition-duration: 500ms;
+}
+
+header h1:hover{
+    color: rgba(137, 43, 226);
+    
+}
+
+header p{
+    font-family: var(--fonte1);
+}

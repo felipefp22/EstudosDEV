@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgba(96, 110, 233, 0.692);
+}
+
+article{
+    background-color: rgba(0, 0, 0, 0.678);
+    width: 800px;
+    height: 920px;
+    margin: auto;
+
+    box-shadow: 0px 0px 20px;
+
+    text-align: center;
+
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    padding: 1em;
+
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, rgba(65, 46, 231, 0.788), rgba(0, 0, 0, 0.075));
+    margin: 0px 15px 0px 15px;
+    border-radius: 8px;
+
+    box-shadow: 0px 0px 20px;
+}
+
+h1:hover{
+    color: gold;
+    transition: 2000ms;
+}
+
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+
+    padding: 11em 1em 0em 0em;
+
+    text-align: end;
+}
+
+img{
+    margin: 3em;
+    border-radius: 1em;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+
+    cursor: not-allowed;
+    
+}
+.imgCursor{
+    cursor: url('/Imagens/Hammer.cur'), default;
+
+}
+
+hr{
+    margin: 0em 1em;
+}
+
+button{
+    background: linear-gradient(to right, rgba(65, 46, 231, 0.788), rgba(139, 187, 230, 0.781));
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px ;
+}
+
+button:hover{
+    cursor: grab;
+    
+}

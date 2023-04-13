@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Fasthand&display=swap');
+@font-face {
+    font-family: fonteMilka;
+    src: url(stash-bold.otf) format(opentype);
+}
+
+* {
+    background-color: #7D68AB;
+}
+
+
+.discover{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
+    font-weight: lighter;
+    color: #FFFFFF;
+
+}
+
+.handfont{
+    font-family:  'fonteMilka', 'Delicious Handrawn', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 7em;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.country{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 7em;
+    color: #8BD1F0;
+}
+
+.lettersbottons{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+    font-size: 3em;
+    font-weight: lighter;
+    color: #FFFFFF;
+}

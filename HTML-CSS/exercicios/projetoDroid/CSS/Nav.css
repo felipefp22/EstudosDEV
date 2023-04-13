@@ -1,0 +1,20 @@
+nav{
+    font-size: 1.3em;
+    background-color: var(--cor5);
+    font-family: var(--fonte1);
+    height: 2em;
+}
+
+nav a{
+    color: aliceblue;
+    
+    margin-left: 1em;
+
+    text-decoration: none;
+    
+}
+
+nav a:hover{
+    color: var(--cor3);
+    transition-duration: 300ms;
+}

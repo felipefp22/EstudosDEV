@@ -1,0 +1,17 @@
+body{
+    background-color:rgba(95, 158, 160, 0.644);
+
+}
+
+div{
+    background-color: rgba(100, 148, 237, 0.562);
+    margin: auto;
+    width: 1000px;
+
+    box-shadow: 2em 1em 1em  rgba(61, 90, 145, 0.562);
+    border-radius: 1em;
+
+    
+    padding-top: 1em;
+    padding-bottom: 1em;
+}

@@ -1,0 +1,8 @@
+footer{
+    background-color: #063d1e;
+    color: aliceblue;
+    text-align: center;
+
+    font-family: var(--fonte0);
+    text-shadow: 1px 1px 0px var(--cor5);
+}
