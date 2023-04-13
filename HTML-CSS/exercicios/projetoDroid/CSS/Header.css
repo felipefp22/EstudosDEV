@@ -12,7 +12,7 @@ header{
 
 header h1{
     font-family: var(--fonte2);
-    font-size: 4em;
+    font-size: 3em;
     padding-top: 50px;
     transition-duration: 500ms;
 }
