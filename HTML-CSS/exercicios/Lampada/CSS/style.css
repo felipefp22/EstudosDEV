@@ -59,7 +59,7 @@ img{
     
 }
 .imgCursor{
-    cursor: url('/Imagens/Hammer.cur'), default;
+    cursor: url('../Imagens/Hammer.cur'), default;
 
 }
 
