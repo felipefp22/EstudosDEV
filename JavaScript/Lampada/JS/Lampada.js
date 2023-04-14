@@ -1,6 +1,5 @@
 var estado = true;
 
-
 function mudarLampada(tipo) {
     if(tipo == 1 && estado){
         document.getElementById("lampada").src="Imagens/lampada-acesa.jpg";
