@@ -1,14 +1,11 @@
 *{
 
+    margin: 0;
+
 }
 
 body{
-    height: 98vh;
-    background-color: black;
-    background-image: url(../imagens/uchiha-clan-logo-sharingan-eye-wallpaper-1280x800_3.jpg);
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
 
 }
 
@@ -19,4 +16,35 @@ main{
     margin: auto;
     border: 1px solid darkblue;
     border-radius: 15px;
+}
+
+article{
+    background-color: rgb(10, 82, 145);
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid darkblue;
+    border-radius: 15px;
+}
+
+div
+.d1{
+    height: 98vh;
+    background-color: black;
+    background-image: url(../imagens/wallpaper002.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.d2{
+    height: 98vh;
+    background-color: black;
+    background-image: url(../imagens/uchiha-clan-logo-sharingan-eye-wallpaper-1280x800_3.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
 }

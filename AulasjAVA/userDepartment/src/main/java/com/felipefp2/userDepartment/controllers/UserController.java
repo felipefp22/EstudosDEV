@@ -19,9 +19,9 @@ public class UserController {
         return result;
     }
 
-    @GetMapping(value= "/rave")
+    @GetMapping(value= "/teste")
     public String xama() {
-        return "havixehaha";
+        return "Olá Mundo";
     }
 
     @GetMapping(value = "/{id}")
