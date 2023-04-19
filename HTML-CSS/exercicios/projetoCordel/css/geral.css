@@ -47,7 +47,7 @@ header a:visited{
 
 section{
     min-width: 300px;
-    max-width: 700px;
+    max-width: 1200px;
     margin: auto;
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -84,19 +84,21 @@ section.imagem p{
 }
 section#img1{
     background-image: url(../imagens/killer-bee-e1524843045447-764x400.jpg);
-    background-position: left top;
+    background-position: center top;
 }
 section#img2{
     background-image: url(../imagens/e81b2125-ec55-4d76-836b-3cec395a5191.jpg);
-    background-position: left top;
+    background-position: center top;
+    margin: auto;
 }
 section#img3{
     background-image: url(../imagens/killer-bee-anotando-rima.jpg);
-    background-position: left top;
+    background-position: center top;
 }
 section#img4{
     background-image: url(../imagens/cNlr1x.jpg);
-    background-position: left top;
+    background-position: center top;
+    max-width: 1200px;
 }
 
 footer{
