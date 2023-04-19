@@ -1,33 +1,40 @@
 *{
-
     margin: 0;
-
 }
 
 body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 
 }
 
+h1{
+    background: linear-gradient( to right, red, rgba(255, 0, 0, 0.432) );
+    margin: 0;
+    padding: 0;
+}
+
 main{
     background-color: aliceblue;
-    width: 400px;
+    min-width: 300px;
+    max-width: 400px;
     padding: 10px;
-    margin: auto;
+    margin: 0px auto 1px auto;
     border: 1px solid darkblue;
     border-radius: 15px;
 }
 
 article{
     background-color: rgb(10, 82, 145);
-    width: 400px;
+    min-width: 300px;
+    max-width: 400px;
     padding: 10px;
     margin: auto;
     border: 1px solid darkblue;
     border-radius: 15px;
 }
 
-div
+
 .d1{
     height: 98vh;
     background-color: black;

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Delicious+Handrawn&family=Fasthand&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Delicious+Handrawn&family=Fasthand&family=Passion+One&family=Sriracha&display=swap');
+*{
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+:root{
+    --fonte1: 'Passion one', cursive;
+    --fonte2: 'Sriracha', cursive;
+}
+
+
+header{
+    background-color: black;
+    color: aliceblue;
+    height: 130px;
+    text-align: center;
+}
+header h1{
+    padding-top: 10px;
+    font-variant: small-caps;
+    font-family: var(--fonte1);
+    font-weight: 200;
+    
+}
+header h2{
+    padding-bottom: 10px;
+    font-family: var(--fonte1);
+    font-weight: 200;
+}
+header p{
+    font-size: 8pt;
+}
+header a{
+    text-decoration: none;
+    font-weight: bolder;  
+}
+header a:hover{
+    text-decoration: underline;
+}
+header a:visited{
+    color: aliceblue;
+}
+
+section{
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 20px;
+    font-size: 2vmax;
+}
+section.normal{
+    background-color: aliceblue;
+}
+section.normal p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.05);
+    
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    font-family: var(--fonte2);
+}
+section.imagem{
+    background-color: beige;
+    color: aliceblue;
+}
+section.imagem p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.274);
+    
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    padding: 5px;
+    font-family: var(--fonte2);
+    
+}
+
+
+footer{
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer a:visited{
+    color: aliceblue;
+}
