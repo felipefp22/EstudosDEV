@@ -20,7 +20,7 @@ header{
     text-align: center;
 }
 header h1{
-    padding-top: 10px;
+    padding-top: 20px;
     font-variant: small-caps;
     font-family: var(--fonte1);
     font-weight: 200;
@@ -47,12 +47,13 @@ header a:visited{
 
 section{
     min-width: 300px;
-    max-width: 800px;
+    max-width: 700px;
     margin: auto;
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2em;
     padding-left: 20px;
+
+    line-height: 2em;
     font-size: 2vmax;
 }
 section.normal{
@@ -63,30 +64,47 @@ section.normal p{
     background-color: rgba(0, 0, 0, 0.05);
     
     border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 5px;
     font-family: var(--fonte2);
 }
 section.imagem{
     background-color: beige;
     color: aliceblue;
+    box-shadow: inset 6px 6px 13px 0px;
+    background-size: cover;
+    background-attachment: fixed;
 }
 section.imagem p{
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.274);
+    background-color: rgba(0, 0, 0, 0.692);
     
     border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.301);
     padding: 5px;
     font-family: var(--fonte2);
-    
 }
-
+section#img1{
+    background-image: url(../imagens/killer-bee-e1524843045447-764x400.jpg);
+    background-position: left top;
+}
+section#img2{
+    background-image: url(../imagens/e81b2125-ec55-4d76-836b-3cec395a5191.jpg);
+    background-position: left top;
+}
+section#img3{
+    background-image: url(../imagens/killer-bee-anotando-rima.jpg);
+    background-position: left top;
+}
+section#img4{
+    background-image: url(../imagens/cNlr1x.jpg);
+    background-position: left top;
+}
 
 footer{
     color: aliceblue;
     background-color: black;
     text-align: center;
+    font-size: 8px;
+    padding: 2px 0px;
 }
 footer a{
     text-decoration: none;
