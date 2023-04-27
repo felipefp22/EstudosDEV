@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciando Estudos DOM</title>
+    <style>
+        body {
+            background-color: rgb(138, 161, 236);
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body onmousedown="muda(1)" onmouseup="muda(0)">
+
+    <h1>Iniciando as estudar <strong> DOM </strong></h1>
+    <h1>Esta linha é de teste</h1>
+
+    <h2>Segunda linha de teste</h2>
+    <p>Aqui vai o resultado</p>
+
+    <div class="ok">Clique em mim</div>
+
+    <script>
+        function muda(ac) {
+            if (ac == 1) {
+                var a = document.body.getElementsByTagName("p")[0]
+                a.style.background = "darkred"
+
+                var b = document.getElementsByTagName("h1")[1]
+                b.style.background = "black"
+
+                document.getElementsByTagName("h2")[0].innerHTML = "hahahah"
+                document.getElementsByTagName("h2")[0].style.background = "blue"
+
+                document.body.style.background = "green"
+
+                document.querySelector("div.ok").style.background = "gray"
+            } else{
+                document.body.style.background="rgb(138, 161, 236)"
+
+            }
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM - 2</title>
+    <style>
+        body{
+            background-color: rgba(0, 0, 0, 0.767);
+        }
+        div#aprendendo{
+            font-size: 40pt;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 600;
+
+            background-color: blueviolet;
+            border: 5px solid black;
+            border-radius: 5px;
+            width: 300px;
+            height: 300px;
+            
+
+            margin: auto;
+            text-align: center;
+            line-height: 270px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="aprendendo">
+        Interaja
+    </div>
+
+    <script>
+        var a = document.getElementById("aprendendo");
+        a.addEventListener("click", clicar)
+        a.addEventListener("mouseenter", entrou)
+        a.addEventListener("mouseout", saiu)
+
+        function clicar(){
+            document.getElementById("aprendendo").innerHTML = "Clicado!";
+            document.getElementById("aprendendo").style.background = "red";
+            document.getElementById("aprendendo").setAttribute = ('id', 'aprendedom');
+            document.getElementById("aprendendom").style.background = "green";
+        }
+        function entrou(){
+            document.getElementById("aprendendo").innerHTML = "Entrou";
+        }
+        function saiu(){
+            document.getElementById("aprendendo").innerHTML = "SAIU"
+        }
+    </script>
+</body>
+</html>
