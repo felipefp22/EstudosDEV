@@ -1,23 +1,3 @@
-//Adicionando Enter aos Inputs
-var teclEnterInicio = document.getElementById("inicio")
-teclEnterInicio.addEventListener('keyup', (e) => {
-    if (e.key === 'Enter') {
-        verificacao()
-    }
-});
-var teclEnterFinal = document.getElementById("final")
-teclEnterFinal.addEventListener('keyup', (e) => {
-    if (e.key === 'Enter') {
-        verificacao()
-    }
-});
-var teclEnterPasso = document.getElementById("passo")
-teclEnterPasso.addEventListener('keyup', (e) => {
-    if (e.key === 'Enter') {
-        verificacao()
-    }
-});
-
 //Variaveis Globais
 var state = false
 
