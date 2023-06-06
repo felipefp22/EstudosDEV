@@ -1,15 +1,12 @@
 package com.meuBanco.meuBanco.dominio;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.AllArgsConstructor;
 
 import java.math.BigDecimal;
-
+@AllArgsConstructor
 public class MovimentacaoDeConta {
-    @JsonProperty
     private ContaCorrente conta;
-    @JsonProperty
     private BigDecimal valor;
-    @JsonProperty
     private Operacao operacao;
 
     public void executarEm(ContaCorrente conta){

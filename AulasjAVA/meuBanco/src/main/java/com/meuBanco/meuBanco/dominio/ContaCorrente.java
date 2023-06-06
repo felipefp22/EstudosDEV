@@ -1,24 +1,17 @@
 package com.meuBanco.meuBanco.dominio;
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonProperty;
-import lombok.AllArgsConstructor;
-import lombok.Data;
+
+import lombok.Getter;
 
 import java.math.BigDecimal;
 import java.util.Objects;
 
-@Data
 public class ContaCorrente {
-    @JsonProperty
-    private String banco;
-    @JsonProperty
-    private String agencia;
-    @JsonProperty
-    private String numero;
-    @JsonProperty
+
+    @Getter private String banco;
+    @Getter private String agencia;
+    @Getter private String numero;
     private BigDecimal saldo;
-    @JsonIgnore
-    private Correntista correntista;
+    @Getter private Correntista correntista;
 
     public ContaCorrente(String banco, String agencia, String numero, Correntista correntista) {
         this();

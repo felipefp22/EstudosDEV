@@ -5,12 +5,17 @@ import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.time.LocalDate;
+
 @Data
 public class Correntista {
-    @JsonProperty
     private String cpf;
-    @JsonProperty
+
     private String nome;
 
-
+    private String dataDeCriacao = String.valueOf(LocalDate.now());
+    public Correntista(String cpf, String nome){
+        this.cpf = cpf;
+        this.nome = nome;
+    }
 }

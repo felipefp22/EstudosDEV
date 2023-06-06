@@ -1,7 +1,6 @@
 package com.meuBanco.meuBanco.repository;
 
 import com.meuBanco.meuBanco.dominio.ContaCorrente;
-import com.meuBanco.meuBanco.dominio.Operacao;
 import org.springframework.stereotype.Repository;
 
 import java.util.HashSet;
@@ -9,7 +8,7 @@ import java.util.Optional;
 import java.util.Set;
 
 @Repository
-public class RepositorioContasCorrentes {
+public class  RepositorioContasCorrentes {
 
     private Set<ContaCorrente> contas;
 
