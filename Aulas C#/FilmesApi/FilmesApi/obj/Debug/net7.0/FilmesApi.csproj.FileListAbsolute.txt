@@ -31,3 +31,13 @@ Q:\EstudosDEV\Aulas C#\FilmesApi\FilmesApi\obj\Debug\net7.0\refint\FilmesApi.dll
 Q:\EstudosDEV\Aulas C#\FilmesApi\FilmesApi\obj\Debug\net7.0\FilmesApi.pdb
 Q:\EstudosDEV\Aulas C#\FilmesApi\FilmesApi\obj\Debug\net7.0\FilmesApi.genruntimeconfig.cache
 Q:\EstudosDEV\Aulas C#\FilmesApi\FilmesApi\obj\Debug\net7.0\ref\FilmesApi.dll
+Q:\EstudosDEV\Aulas C#\FilmesApi\FilmesApi\bin\Debug\net7.0\Humanizer.dll
+Q:\EstudosDEV\Aulas C#\FilmesApi\FilmesApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+Q:\EstudosDEV\Aulas C#\FilmesApi\FilmesApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+Q:\EstudosDEV\Aulas C#\FilmesApi\FilmesApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+Q:\EstudosDEV\Aulas C#\FilmesApi\FilmesApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+Q:\EstudosDEV\Aulas C#\FilmesApi\FilmesApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+Q:\EstudosDEV\Aulas C#\FilmesApi\FilmesApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+Q:\EstudosDEV\Aulas C#\FilmesApi\FilmesApi\bin\Debug\net7.0\MySqlConnector.dll
+Q:\EstudosDEV\Aulas C#\FilmesApi\FilmesApi\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
+Q:\EstudosDEV\Aulas C#\FilmesApi\FilmesApi\bin\Debug\net7.0\System.CodeDom.dll
