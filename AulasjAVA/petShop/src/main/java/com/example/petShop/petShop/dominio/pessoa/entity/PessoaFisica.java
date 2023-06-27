@@ -10,11 +10,20 @@ public class PessoaFisica extends Pessoa {
     private String cpf;
     private Collection<PessoaFisica> dependentes = new Vector<>();
 
-
     public PessoaFisica(Long id, String nome, LocalDate nascimento, String cpf, Collection<PessoaFisica> dependentes) {
         super(id, nome, nascimento);
         this.cpf = cpf;
         this.dependentes = dependentes;
+    }
+    public PessoaFisica(){
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+    public PessoaFisica setCpf(String cpf) {
+        this.cpf = cpf;
+        return this;
     }
 
     public PessoaFisica addDependent(PessoaFisica p){
