@@ -1,11 +1,14 @@
 package com.example.petShop.petShop.dominio.produto.entity;
 
-import jakarta.persistence.Entity;
+import jakarta.persistence.*;
 
 import java.util.Objects;
 import java.util.UUID;
-
+@Entity
+@Table(name="tb_produtos")
 public class Produto {
+    @Id
+    @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
     private String nome;
     private String descricao;
@@ -13,12 +16,12 @@ public class Produto {
     private double preco;
 
     public Produto(String nome, String descricao, String urlImagem, double preco) {
-        this.id = UUID.randomUUID();
         this.nome = nome;
         this.descricao = descricao;
         this.urlImagem = urlImagem;
         this.preco = preco;
     }
+    public Produto(){}
 
     public UUID getId() {
         return id;

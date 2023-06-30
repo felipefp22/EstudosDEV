@@ -26,7 +26,7 @@ public class ProdutoController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<Optional<Produto>> findById(@PathVariable UUID id){
+    public ResponseEntity<Produto> findById(@PathVariable UUID id){
         var produtos = produtoService.findById(id);
 
         return ResponseEntity.ok(produtos);
@@ -41,7 +41,7 @@ public class ProdutoController {
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<Optional<Produto>> update(@PathVariable UUID id, @RequestBody Produto produto){
+    public ResponseEntity<Produto> update(@PathVariable UUID id, @RequestBody Produto produto){
         var produtoUpdated = produtoService.update(id, produto);
 
         return ResponseEntity.ok(produtoUpdated);
