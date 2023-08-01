@@ -1,18 +1,18 @@
 package com.example.petShop.petShop.dominio.produto.service;
 
+import com.example.petShop.petShop.dominio.produto.dto.ProdutoDTO;
 import com.example.petShop.petShop.dominio.produto.entity.Produto;
 import com.example.petShop.petShop.dominio.produto.repository.IProdutoRepository;
 import com.example.petShop.petShop.dominio.produto.service.exception.ControllerNotFoundException;
 import com.example.petShop.petShop.dominio.produto.service.exception.DatabaseException;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.dao.EmptyResultDataAccessException;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
-import java.util.Collection;
-import java.util.Optional;
 import java.util.UUID;
 
 @Service
@@ -21,35 +21,39 @@ public class ProdutoService {
     @Autowired
     private IProdutoRepository repo;
 
-    public Collection<Produto> findAll(){
-        var produtos = repo.findAll();
+    public Page<ProdutoDTO> findAll(PageRequest pagina){
+        var produtos = repo.findAll(pagina);
 
-        return produtos;
+        return produtos.map(produto -> new ProdutoDTO(produto.getId(), produto.getNome(), produto.getDescricao(), produto.getPreco()));
     }
 
-    public Produto findById(UUID id){
+    public ProdutoDTO findById(UUID id){
         var produto = repo.findById(id).orElseThrow(() -> new ControllerNotFoundException("Produto não Encontrado"));
 
-        return produto;
+        return new ProdutoDTO(produto.getId(), produto.getNome(), produto.getDescricao(), produto.getPreco());
     }
 
-    public Produto save(Produto produto) {
-        var produtoSaved = repo.save(produto);
-        return produto;
+    public ProdutoDTO save(ProdutoDTO produtoDTO) {
+        Produto entity = new Produto();
+        entity.setNome(produtoDTO.nome());
+        entity.setDescricao(produtoDTO.descricao());
+        entity.setPreco(produtoDTO.preco());
+
+        repo.save(entity);
+        return new ProdutoDTO(entity.getId(), entity.getNome(), produtoDTO.descricao(), entity.getPreco());
     }
 
-    public Produto update(UUID id, Produto produto){
+    public ProdutoDTO update(UUID id, ProdutoDTO produtoDTO){
         try {
             Produto buscaProduto = repo.getOne(id);
 
-            buscaProduto.setNome(produto.getNome());
-            buscaProduto.setDescricao(produto.getDescricao());
-            buscaProduto.setUrlImagem(produto.getUrlImagem());
-            buscaProduto.setPreco(produto.getPreco());
+            buscaProduto.setNome(produtoDTO.nome());
+            buscaProduto.setDescricao(produtoDTO.descricao());
+            buscaProduto.setPreco(produtoDTO.preco());
 
             buscaProduto = repo.save(buscaProduto);
 
-            return buscaProduto;
+            return new ProdutoDTO(buscaProduto.getId(), buscaProduto.getNome(), buscaProduto.getDescricao(), buscaProduto.getPreco());
         }catch (EntityNotFoundException e){
             throw new ControllerNotFoundException("Produto não Encontrado");
         }

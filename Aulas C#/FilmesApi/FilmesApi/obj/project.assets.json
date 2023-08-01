@@ -1482,19 +1482,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Fee\\.nuget\\packages\\": {}
+    "C:\\Users\\Feee\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Q:\\EstudosDEV\\Aulas C#\\FilmesApi\\FilmesApi\\FilmesApi.csproj",
+      "projectUniqueName": "F:\\EstudosDEV\\Aulas C#\\FilmesApi\\FilmesApi\\FilmesApi.csproj",
       "projectName": "FilmesApi",
-      "projectPath": "Q:\\EstudosDEV\\Aulas C#\\FilmesApi\\FilmesApi\\FilmesApi.csproj",
-      "packagesPath": "C:\\Users\\Fee\\.nuget\\packages\\",
-      "outputPath": "Q:\\EstudosDEV\\Aulas C#\\FilmesApi\\FilmesApi\\obj\\",
+      "projectPath": "F:\\EstudosDEV\\Aulas C#\\FilmesApi\\FilmesApi\\FilmesApi.csproj",
+      "packagesPath": "C:\\Users\\Feee\\.nuget\\packages\\",
+      "outputPath": "F:\\EstudosDEV\\Aulas C#\\FilmesApi\\FilmesApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Fee\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Feee\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1502,7 +1502,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.305\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1563,7 +1563,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
       }
     }
   }

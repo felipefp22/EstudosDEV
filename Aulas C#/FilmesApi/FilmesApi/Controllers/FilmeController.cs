@@ -19,12 +19,31 @@ public class FilmeController : ControllerBase
     [HttpPost]
     public IActionResult AdicionarFilme([FromBody] FilmeDto filmeDto)
     {
-        Filme filme = filmeDto.toFilme();
+       Filme filme = filmeDto.toFilme();
 
         _context.Filmes.Add(filme);
         _context.SaveChanges();
+
+        FilmeDto filmeSalvo = new FilmeDto(filme);
+
         return CreatedAtAction(nameof(RecuperarFilmePorId), new {id = filme.Id}, filme);
 
+    }
+
+    [HttpPut("{id}")]
+    public IActionResult AtualizaFilme(int id,[FromBody] FilmeDto filmeDto)
+    {
+        var filmeASerModificado = _context.Filmes.FirstOrDefault(film
+            => film.Id == id);
+        if (filmeASerModificado == null) return NotFound();
+        
+        //filmeASerModificado.Id = filmeDto.Id;
+        filmeASerModificado.Titulo = filmeDto.Titulo;
+        filmeASerModificado.Genero = filmeDto.Genero;
+        filmeASerModificado.Duracao = filmeDto.Duracao;
+
+        _context.SaveChanges();
+        return NoContent();
     }
 
     [HttpGet]
